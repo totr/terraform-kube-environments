@@ -1,0 +1,15 @@
+source:
+  repoURL: https://github.com/totr/argocd-apps
+  targetRevision: digitalocean
+project:
+  name: dev-deo
+  domain: dev.do.tomastrnka.cloud
+  admin:
+    email: admin@tomastrnka.cloud
+dns:
+  admin:
+    email: totr@tomastrnka.net
+    apiKey: <DNS_API_KEY>
+iaasProvider:
+  storage:
+    token: <STORAGE_TOKEN>
